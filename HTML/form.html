@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form in html</title>
+</head>
+<body>
+    <h1>Student details form</h1>
+
+    <form action="">
+        <fieldset>
+            <legend>Studentform</legend>
+
+        <label for="sn" >Sname</label>
+        <input type="text" placeholder="Enter your name" id="sn" name="userName">
+
+        <br> <br>
+
+        <label for="em" >Email</label>
+        <input type="text" placeholder="Enter your email" id="em" name="userEmail" required>
+        <br><br>
+
+        <label for="">password</label>
+        <input type="password" name="" id="" minlength="5">
+
+        <br> <br>
+
+        <label for="age">Age</label>
+        <input type="number" name="age" id="age" placeholder="Enter the age">
+
+        <br> <br>
+
+        <label for="dob1">Date of Birth</label>
+        <input type="date" name="dob" id="dob1">
+
+        <br> <br>
+
+        <label for="ph">phno</label>
+        <input type="tel" name="phono" id="ph" placeholder="Enter the phno">
+
+        <br> <br>
+
+        <label for="">Subjects</label>
+
+        <input type="checkbox" name="sub1" id="s1" value="html"><label for="s1">HTML</label>
+        <input type="checkbox" name="sub2" id="s2" value="css"><label for="s2">CSS</label>
+        <input type="checkbox" name="sub3" id="s3" value="js"><label for="s3">JS</label>
+
+        <br> <br>
+
+        <label for="">Select Gender</label>
+        <input type="radio" name="gender" id="r1" value="html"><label for="s1">Male</label>
+        <input type="radio" name="gender" id="r2" value="css"><label for="s2">Female</label>
+
+        <br><br>
+
+        <label for="">Select course</label>
+        <select name="" id="">
+            <option value="">FrontEnd</option>
+            <option value="">Backend</option>
+            <option value="">Database</option>
+        </select>
+
+        <br><br>
+
+        <label for="add">Address</label>
+        <textarea name="addr" id="add" placeholder="Enter the address"></textarea>
+
+        <br><br>
+
+        <label for="">salary</label>
+        <input type="range" name="" id="" min="10000" max="20000">
+
+
+        <br><br>
+
+        <button type="reset">clear</button>
+
+        <input type="submit" value="reset by using input">
+
+        <button>Submit</button>
+
+    </fieldset>  
+
+    </form>
+</body>
+</html>
