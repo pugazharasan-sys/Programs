@@ -1,0 +1,12 @@
+
+table{
+    height: 200px;
+    width: 200px;
+}
+.t1>td:nth-child(2n){
+    background-color: black;
+}
+
+.t2>td:nth-child(2n+1){
+    background-color: black;
+}

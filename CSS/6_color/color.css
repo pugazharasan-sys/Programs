@@ -1,0 +1,64 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+
+    background-color: aqua;
+    height: 200px;
+}
+
+.main{
+
+    height: 200px;
+    text-align: center;
+    background-color: aquamarine;
+}
+
+.main > h1{
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 5px red;
+}
+
+.main > p{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.main > button{
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: lightseagreen;
+}
+
+.main > button:hover{
+    background-color: greenyellow;
+}
+
+.section{
+    height: 300px;
+    background-color: gray;
+}
+
+.section > img{
+    height: 200px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.footer{
+    background-color: brown;
+    height: 40px;
+    
+}
+
+.footer > a{
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+}
