@@ -1,0 +1,51 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(234, 187, 187);
+}
+
+.container{
+    border: 2px solid white;
+    width: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px gainsboro;
+
+}
+
+.container > button{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    background-color: #555;
+    color: white;
+    cursor: pointer;
+}
+
+.container > button:hover{
+    background-color: #666;
+}
+
+.container2{
+    height: 400px;
+    width: 400px;
+    border: 2px solid rgb(93, 213, 143);
+    margin-top: 20px;
+}
+
+.container2 > .box{
+    height: 50px;
+    width: 50px;
+    border: 3px solid rgb(209, 37, 37);
+
+}

@@ -1,0 +1,49 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.con{
+    border: 2px solid black;
+    width: 20%;
+    border-radius: 15px;
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+
+.con > img{
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.con > .but{
+    display: block;
+    width: 100%;
+}
+
+.con > h2{
+    margin-top: 20px;
+}
+
+.con > .p1{
+    margin-top: 10px;
+    color: yellow;
+}
+
+.con > .p2{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.con > .but{
+    margin-bottom: 10px;
+    padding: 3px;
+    background-color: gray;
+    color: aliceblue;
+    border-radius: 10px;
+}

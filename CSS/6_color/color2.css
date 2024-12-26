@@ -1,0 +1,52 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.con1{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    background-color: rgb(100, 102, 222);
+    color: rgb(128, 209, 159);
+}
+
+body{
+     background-color: rgba(124, 124, 49, 0.5); /*a - alpha range between 0-1*/
+}
+
+.con2{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    margin-top: 20px;
+
+    background-color: #db9065;
+}
+
+.con3{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    margin-top: 20px;
+
+    background-color: hsl(22, 28%, 28%);
+}
+
+.con2 > button{
+    padding: 5px;
+    margin-top: 4px;
+    border-radius: 5px;
+    background-color: aqua;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.con2 > button:hover{
+    background-color: rgb(77, 189, 189);
+}
+
+
