@@ -1,0 +1,76 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.outer{
+    background-color: rgb(228, 202, 207);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.outer > .inner{
+    background-color: white;
+    width: 300px;
+    height: 400px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 5px 5px 3px gainsboro;
+}
+
+.outer > .inner > h2{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.outer > .inner > p{
+    font-weight: lighter;
+    color: rgb(144, 140, 140);
+    margin-bottom: 10px;
+}
+
+.outer > .inner > label{
+    margin-bottom: 7px;
+    font-weight: bold;
+}
+
+.outer > .inner > input{
+    margin-bottom: 7px;
+    padding: 5px;
+    border-radius: 6px;
+    border-color: rgb(231, 222, 222);
+}
+
+.outer > .inner > button{
+    margin-top: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background-color: rgba(140, 66, 209, 0.899);
+    border-color: rgb(140, 66, 209) ;
+    box-shadow: 2px 2px 4px black;
+    color: white;
+    font-size: 18px;
+}
+
+.outer > .inner > button:hover{
+    background-color: rgba(157, 94, 215, 0.899);
+}
+
+.outer > .inner > p > a{
+    margin-left: 7px;
+    color: rgba(140, 66, 209, 0.899);
+    font-weight: bold;
+}
