@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.outer{
+    background-color: rgb(242,244,247);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.outer > .inner1{
+    background-color: rgb(242,244,247);
+    /* background-color: aquamarine; */
+    height: 305px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.outer > .inner1 > h1{
+    color: rgb(8,103,254);
+    margin-left: 10px;
+    font-size: 50px;
+}
+
+.outer > .inner1 > p{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+
+.outer > .inner2{
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    background-color: white;
+    
+
+    height: 320px;
+    width: 400px;
+
+}
+
+.outer > .inner2 >form > input{
+    padding: 10px;
+    width: 300px;
+    border-color: rgb(246, 244, 244);
+    border-radius: 6px;
+    margin-top: 20px;
+}
+
+.outer > .inner2 > form > #b1{
+    width: 100%;
+    padding: 12px 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    font-size: 19px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    background-color: rgb(8,103,254);
+    cursor: pointer;
+}
+
+.outer > .inner2 > form > #b2{
+    padding: 12px 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    background-color:rgb(66,182,43);
+    margin-left: 80px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.outer > .inner2 > form > a{
+    text-align: center;
+    margin-left: 96px;
+    text-decoration: none;
+}
+
+
+
+.outer >.inner2 > p{
+    text-align: center;
+}
+
+.outer > .inner2 > p > a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}

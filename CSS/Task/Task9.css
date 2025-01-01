@@ -1,0 +1,90 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.outer{
+    background-color: lightcoral;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.outer > .inner{
+    background-color: white;
+    border: 2px solid black;
+    width: 350px;
+    height: 420px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.outer > .inner > .top{
+    text-align: center;
+    margin-top: 20px;
+    color: gray;
+}
+
+.outer > .inner > .top > img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px gray;
+}
+
+.outer > .inner > .top > h1{
+    margin-bottom: 10px;
+    color: black;
+}
+
+.outer > .inner > .middle{
+    display: flex;
+    margin-top: 15px;
+}
+
+.outer >.inner > .middle > .box{
+    width: 100px;
+}
+
+.outer > .inner > .middle > .box > #p1{
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}
+
+.outer >.inner > .middle > .box > p{
+    text-align: center;
+    color: gray;
+}
+
+.outer > .inner > .bottom {
+    text-align: center;
+    cursor: pointer;
+}
+
+.outer > .inner > .bottom > button{
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(75, 75, 253);
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    border: none;
+    box-shadow: 2px 2px 2px gray;
+    cursor: pointer;
+}
+
+.outer > .inner > .bottom > button:hover{
+    background-color: rgb(61, 61, 207);
+}
+

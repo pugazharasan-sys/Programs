@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav{
+    background-color: black;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+nav > ul{
+    color: white;
+    display: flex;
+}
+
+nav > ul > li{
+    list-style: none;
+    padding: 0 15px;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+nav > ul > li:hover{
+    color: #555;
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content > h1{
+    font-size: 45px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 1px red;
+}
+
+.content > p{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: gray;
+}
+
+.content > button{
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.content > button:hover{
+    background-color: #555;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 10px;
+    
+}
+
+.img > .img1{
+    height: 400px;
+    width: 405px;
+    text-align: center;
+    box-shadow: 2px 2px 2px black;
+    border-radius: 5px;
+}
+
+.img > .img1:hover{
+    box-shadow: -2px -2px 2px black;
+}
+
+
+.img > .img1 > img{
+    height: 250px;
+    width: 400px;
+    padding: 2px;
+}
+
+.img > .img1 > h2{
+    font-size: 28px;
+}
+
+.img > .img1 >p{
+    font-size: 17px;
+    color: gray;
+}
