@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.outer{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightseagreen;
+}
+
+.outer > .inner{
+    width: 400px;
+    padding: 20px 40px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px black;
+    background-color: white;
+}
+
+.outer > .inner > #p1{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+    color: #666;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.outer > .inner > form > label{
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.outer > .inner > form > input{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: #666;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.outer > .inner > form > button{
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(0, 102, 255);
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.outer > .inner > form > button:hover{
+    background-color: rgb(7, 81, 192);
+}
+ 
+.outer > .inner > p{
+    font-size: 20px;
+    color: #666;
+
+}
+
+.outer > .inner > p > a{
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+
