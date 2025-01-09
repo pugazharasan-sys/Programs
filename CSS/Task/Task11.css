@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.outer{
+    height: 100vh;
+    background: linear-gradient(to right,red,orange,yellow);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.outer > .inner{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid black;
+    background-color: rgb(174, 88, 255);
+
+    transition: all 2s ease-in;
+    
+}
+
+.outer > #b1:hover{
+    transform: translateX(90vw) scale(1.5) ;
+    background-color: black;
+}
+
+.outer > #b2:hover{
+    transform: translateX(90vw) skew(45deg);
+}
+
+.outer > #b3:hover{
+    transform: translateX(90vw) rotate(90deg) scale(1.5);
+    border-radius: 0px;
+    background-color: black;
+}
+
+.outer > #b4:hover{
+    transform: translate(90vw,-30vw) scale(1.5);
+    background-color: black;
+} 

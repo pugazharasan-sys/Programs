@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+ .inner{
+    height: 100vh;
+}
+
+ .inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+    background-attachment: fixed;
+}
+
+ #b1{
+    /* background-color: #6A80B9; */
+    background-image: url("https://images.pexels.com/photos/29619370/pexels-photo-29619370/free-photo-of-minimalist-architecture-in-bayreuth-germany.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load");
+
+    
+
+    
+}
+
+ #b2{
+    /* background-color: #F6C794;
+     */
+     background-image: url("https://images.pexels.com/photos/20117735/pexels-photo-20117735/free-photo-of-man-hiking-in-desert.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+
+ #b3{
+    /* background-color: #FFF6B3; */
+    background-image: url("https://images.pexels.com/photos/29865382/pexels-photo-29865382/free-photo-of-colorful-beach-cabin-doors-in-le-havre-france.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+
+ #b4{
+    /* background-color: #E5D0AC;
+     */
+     background-image: url("https://images.pexels.com/photos/29893445/pexels-photo-29893445/free-photo-of-delicious-brunch-with-waffles-and-toast-in-brno.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+
+ .inner > h1 {
+    font-size: 50px;
+    letter-spacing: 2px;
+    color: white;
+    text-shadow: 2px 2px 2px red;
+}
+
+ .inner > p {
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: white;
+    text-shadow: 2px 2px 2px red;
+}

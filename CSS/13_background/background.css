@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.outer{
+    height: 100vh;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.outer > .inner{
+    height: 400px;
+    width: 600px;
+    background-color: white;
+
+    background-image: url("https://imgs.search.brave.com/qaH6oPc6WI0dUcMMSe1Mr_IA4AzDpxwTWOggnoSjGY4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvZW4vdGh1bWIv/Ni82OS9HdXN0YXZv/X0ZyaW5nX0JDU19T/M0UxMC5wbmcvMjIw/cHgtR3VzdGF2b19G/cmluZ19CQ1NfUzNF/MTAucG5n");
+
+    background-repeat: no-repeat;
+
+    background-position: center;
+
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outer > .inner > h1{
+    color: white;
+    text-shadow: 2px 2px 2px lightcoral;
+}
