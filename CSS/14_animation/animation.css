@@ -1,0 +1,175 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.outer{
+    background: linear-gradient(to right, yellow, orange, red);
+    background-color: black;
+    height: 200vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.outer > .left{
+    height: 300px;
+    width: 300px;
+    border: 3px solid white;
+}
+
+.outer > .right{
+    height: 300px;
+    width: 300px;
+    border: 3px solid white;
+}
+
+.outer > .left > .box{
+    height: 100px;
+    width: 100px;
+    border: 2px solid red;
+
+    /* animation: moving 1.5s ease-in infinite alternate; */
+    animation: total_rotate 1.5s ease-in infinite;
+}
+
+.outer > .right > .box{
+    height: 100px;
+    width: 100px;
+    border: 2px solid greenyellow;
+
+    animation: rotation 1.5s linear infinite;
+} 
+
+@keyframes moving {
+    from{
+        transform: translate(0,0);
+        background-color: aqua;
+    }
+    to{
+        transform: translate(200px,0);
+        background-color: blueviolet;
+    }
+}
+
+@keyframes rotation {
+    from{
+        transform: rotate(0);
+        background-color: lightcoral;
+    }
+    to{
+        transform: rotate(360deg);
+        background-color: brown;
+    }
+}
+
+@keyframes total_rotate {
+    0%{
+        transform: translate(0,0);
+        background-color: white;
+    }
+    25%{
+        transform: translate(200px,0);
+        background-color: yellow;
+    }
+    50%{
+        transform: translate(200px,200px);
+        background-color: aqua;
+    }
+    75%{
+        transform: translate(0,200px);
+        background-color: blueviolet;
+    }
+}
+
+
+.outer > .con1 {
+    height: 300px;
+    width: 300px;
+    border: 3px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outer > .con1 > .box{
+    height: 100px;
+    width: 100px;
+    border-top: 4px solid lightseagreen;
+    border-radius: 50%;
+    animation: circular 1.5s linear infinite;
+}
+
+@keyframes circular {
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(270deg);
+    }
+}
+
+.outer > .con2{
+    height: 300px;
+    width: 300px;
+    border: 2px solid white;
+    border-radius: 50%;
+    animation: circular 1.5s linear infinite;
+}
+
+.outer > .con2 > .box{
+    height: 100px;
+    width: 100px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.outer > .con3{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.outer > .con3 > .ball{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+
+    animation: move 1.5s linear infinite alternate;
+
+}
+
+@keyframes move {
+    from{
+        transform: translateY(-80px);
+    }
+    to{
+        transform: translateY(80px);
+    }
+}
+
+.con3 > #b1{
+    background-color: lightblue;
+    animation-delay: 0.1s;
+}
+
+.con3 > #b2{
+    background-color: lightcoral;
+    animation-delay: 0.2s;
+}
+
+.con3 > #b3{
+    background-color: lightgreen;
+    animation-delay: 0.3s;
+}
+
+.con3 > #b4{
+    background-color: lightsalmon;
+    animation-delay: 0.4s;
+}

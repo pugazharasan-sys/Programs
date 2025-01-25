@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.outer{
+    height: 100vh;
+    background: linear-gradient(to right,red,orange,yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outer > .con{
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    box-shadow: 2px 2px 2px black;
+
+    position: relative;
+}
+
+.outer > .con >#b1{
+    height: 60px;
+    width: 60px;
+    background-color: red;
+}
+
+.outer > .con >#b2{
+    height: 70px;
+    width: 70px;
+    background-color: blue;
+
+    /* position: relative;
+    top: 20px; */
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.outer > .con >#b3{
+    height: 80px;
+    width: 80px;
+    background-color: green;
+
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.outer > .con >#b4{
+    height: 90px;
+    width: 90px;
+    background-color: yellow;
+
+    position: absolute;
+    bottom: 0;
+}
+
+.outer > .con >#b5{
+    height: 100px;
+    width: 100px;
+    background-color: orange;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.outer > .con > #b6{
+    height: 110px;
+    width: 110px;
+    background-color: violet;
+
+    position: absolute;
+    right: 0;
+    top: 0;
+
+}
+
+.outer > .con > .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.con{
+    background: linear-gradient(to right,black,red);
+    height: 100vh;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.container {
+    border: 10px solid green;
+    height: 400px;
+    width: 800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.container > .box{
+    border: 2px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+    background-size: cover;
+    background-position: top;
+    transition: all 1s ease-in;
+    
+    text-shadow: 2px 2px 2px black
+
+}
+
+.container > .box:hover{
+    background-position: center;
+}
+
+
+.container > #b1{
+    background-image: url("https://images.pexels.com/photos/688660/pexels-photo-688660.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    grid-row: span 2;;
+}
+
+.container > #b2{
+    background-image: url("https://images.pexels.com/photos/1001682/pexels-photo-1001682.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+
+.container > #b3{
+    background-image: url("https://images.pexels.com/photos/1043458/pexels-photo-1043458.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+
+.container > #b4{
+    background-image: url("https://images.pexels.com/photos/36744/agriculture-arable-clouds-countryside.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    grid-column: span 2;
+}
+
+.container > #b5{
+    background-image: url("https://images.pexels.com/photos/189349/pexels-photo-189349.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+
+.container > #b6{
+    background-image: url("https://images.pexels.com/photos/33044/sunflower-sun-summer-yellow.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+
+.container > #b7{
+    background-image: url("https://images.pexels.com/photos/414181/pexels-photo-414181.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}

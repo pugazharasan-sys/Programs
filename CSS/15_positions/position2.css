@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    
+    position: fixed;
+    top: 0;
+}
+
+main{
+    height: 350px;
+    width: 100%;
+    background-color: blanchedalmond;
+    
+
+}
+
+section{
+    height: 350px;
+    background-color: aqua;
+}
+
+article{
+    height: 350px;
+    background-color: azure;
+}
+
+aside{
+    height: 350px;
+    background-color: blueviolet;
+}
+
+footer{
+    height: 350px;
+    background-color: blanchedalmond;
+}
+
+section > h2{
+    position: sticky;
+    top: 300px;
+}
