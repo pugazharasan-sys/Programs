@@ -63,17 +63,17 @@ console.log(num1);
 
 //! typeof operator is used to know the datatype
 
-console.log(typeof num1);
+console.log(typeof num1); //number
 
 let num2=20.8;
 
-console.log(typeof num2);
+console.log(typeof num2); //number
 
 //! boolean
 
 let isPlayer = true;
 
-console.log(typeof isPlayer);
+console.log(typeof isPlayer); //boolean
 
 
 //! String
@@ -82,9 +82,9 @@ let str1 = 'hello';
 let str2 = "hello";
 let str3 = `hello`; //back tick
 
-console.log(typeof str1);
-console.log(typeof str2);
-console.log(typeof str3);
+console.log(typeof str1); //string
+console.log(typeof str2); //string
+console.log(typeof str3); //string
 
 //! undefined
 
@@ -92,7 +92,7 @@ console.log(typeof str3);
 
 let empName;
 
-console.log(empName);
+console.log(empName); //undefined
 console.log(typeof empName); // type of undefined is undefined
 
 
@@ -100,7 +100,7 @@ console.log(typeof empName); // type of undefined is undefined
 
 let sal = null;
 
-console.log(sal);
+console.log(sal); //null
 console.log(typeof sal); //type of null is object
 
 
@@ -108,7 +108,7 @@ console.log(typeof sal); //type of null is object
 
 let bigNumber = 2n;
 
-console.log(bigNumber);
+console.log(bigNumber); //2n
 console.log(typeof bigNumber); //type of bigint is bigint
 
 
@@ -138,6 +138,7 @@ let student = {
 }
 
 console.log(student);
+console.log(student.sname);
 
 
 
