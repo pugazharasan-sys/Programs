@@ -128,8 +128,10 @@ numbers3.splice(2,0,"hi")
 console.log(numbers3);
 
 
-//! foreach()
+
 //? higherOrder array methods
+
+//! foreach()
 
 // it is higherorder array method and it is used to traverse the array.
 // it has three parameter(element, index, array)
